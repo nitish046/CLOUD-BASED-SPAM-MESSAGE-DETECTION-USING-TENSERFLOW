@@ -46,18 +46,3 @@ This project utilizes machine learning to achieve classification od messages int
 2. Input data for predictions.
 3. The frontend communicates with the Spring Boot backend, which, in turn, communicates with the Lambda function via API Gateway Endpoint and queries to Flask server for predictions.
 
-Certainly! The credits section is where you acknowledge and give credit to any libraries, frameworks, tools, or resources that you used in your project. Here's a placeholder credits section that you can customize based on the specific technologies and tools you utilized:
-
----
-
-## Credits
-
-This project wouldn't have been possible without the invaluable contributions from the following tools, libraries, and frameworks:
-
-- **Spring Boot:** The Spring Boot framework provided a robust and efficient foundation for building our backend services.
-
-- **Flask:** Flask served as the web framework for hosting our machine learning model, providing a simple and flexible solution.
-
-- **AWS Services (API Gateway, Lambda, EC2):** The seamless integration of AWS services allowed us to create a scalable and reliable architecture.
-
-- **Maven:** Maven simplified our project's build and dependency management process, making it more maintainable.
