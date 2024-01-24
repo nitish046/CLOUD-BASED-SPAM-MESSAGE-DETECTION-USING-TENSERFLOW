@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Classification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="login-page">
+    <div class="form">
+
+        <form class="login-form" action="/classify" method="POST">
+            <textarea name="message" placeholder="Enter your message" rows="4"></textarea>
+            <button type="submit">Predict</button>
+
+        </form>
+
+        <div th:if="${responseBody}">
+            <p th:text="'Classification Result: ' + ${responseBody}"></p>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+
+
+</html>
